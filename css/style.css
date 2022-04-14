@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f3f3;
+  color: #3a3939;
+}
+
+.container {
+  margin: 0 5rem;
+}
+
+p, span {
+  font-size: 1.7rem;
+}
+
+.nav {
+  display: flex;
+}
+
+h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:active,
+a:hover,
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a.link_text:active,
+a.link_text:hover,
+a.link_text {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.head-text {
+  font-family: 'Russo One', sans-serif;
+  white-space: nowrap;
+}
+
+.header {
+  display: flex;
+  height: 10rem;
+  padding: 0 5rem;
+  position: relative;
+  align-items: center;
+  background-color: #015eb7;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 80%);
+}
+
+.menu__box {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.menu__box li {
+  margin-left: 6rem;
+  line-height: 4rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo .logo_img {
+  width: 5.5rem;
+}
+
+.logo span {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.back_image {
+  width: 100%;
+  height: 100%;
+  background: url("/img/main.jpg") no-repeat fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+
+.main h1 {
+  font-family: 'Russo One', sans-serif;
+  margin: 0;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main h2 {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.hello {
+  height: 100%;
+  border-radius: 10%;
+  background-color: #dfd7cca8;
+  box-shadow: rgb(223 215 204 / 68%) 6px 0 20px 19px;
+}
+
+.hello p {
+  margin-top: 1rem;
+}
+
+.text_main {
+  width: 43rem;
+  padding: 3rem;
+}
+
+.text_main p {
+  margin-bottom: 0.5rem;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.request h2 {
+  text-align: center;
+  border-radius: 10%;
+  padding: 1rem;
+  background-color: #dfd7cca8;
+  box-shadow: rgb(223 215 204 / 68%) 6px 0 20px 19px;
+}
+
+.request_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.request input, select {
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  margin-bottom: 2rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+.category {
+  padding: 15px;
+  margin: 0 0 2rem 0;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+input[type=button] {
+  padding: 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  font: inherit;
+  color: #fff;
+  cursor: pointer;
+  background-color: #b70133;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.fleet {
+  margin-top: 7rem;
+}
+
+.fleet h3 {
+  margin: 0;
+}
+
+.fleet_box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+  flex-wrap: wrap;
+}
+
+.fleet_item {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+}
+
+.photo {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.fleet_img {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.advantages {
+  margin: 7rem 0;
+}
+
+.grid_advantages {
+  display: grid;
+  grid-template: repeat(2,1fr) / repeat(3,1fr);
+  grid-column-gap: 5rem;
+  grid-row-gap: 3rem;
+  margin-top: 5rem;
+}
+
+.grid_item {
+  padding: 0;
+}
+
+.footer {
+  padding: 1rem 5rem;
+  position: sticky;
+  top: 100vh;
+}

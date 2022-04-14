@@ -1,0 +1,66 @@
+@media (max-width: 992px) {
+  .container {
+    margin: 0 5%;
+  }
+
+  .back_image {
+
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  .hello h1 {
+    font-size: 5rem;
+  }
+
+  .hello p, span {
+    font-size: 2.5rem;
+  }
+
+  .request h2 {
+    font-size: 3rem;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  .category {
+    padding: 1rem;
+  }
+
+  .main {
+    padding: 0;
+  }
+
+  .hello p, span {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hello h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .hello p, span {
+    display: block;
+    text-align: center;
+  }
+
+  .request h2 {
+    font-size: 2rem;
+  }
+
+  .grid_advantages {
+    grid-template: none;
+  }
+
+  .grid_item {
+    text-align: center;
+  }
+}
