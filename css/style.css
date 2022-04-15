@@ -1,6 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-weight: normal;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -196,7 +237,16 @@ input[type=button] {
 }
 
 .fleet {
-  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  background: transparent;
+  color: #f3f3f3;
+}
+
+.fleet_text {
+  text-shadow: 4px 6px 10px black;
 }
 
 .fleet h3 {
@@ -217,12 +267,19 @@ input[type=button] {
   align-items: center;
 }
 
-.photo {
+.fleet_item p {
+  background-color: #b70133;
+  padding: 1rem;
+  border-radius: 10%;
+}
+
+.fleet .photo {
   width: 20rem;
   height: 20rem;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 50%;
+  border: #a09dac 2px solid;
 }
 
 .fleet_img {
@@ -250,7 +307,7 @@ input[type=button] {
 .reviews_flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 7rem 0;
 }
 
@@ -281,20 +338,13 @@ input[type=button] {
   text-align: center;
 }
 
-.request-bottom .request_form {
-  width: 50%;
-}
-
 .request-bottom h2 {
   color: #fff;
   font-size: 3rem;
 }
 
-.footer {
-  background-color: #15171C;
-  position: sticky;
-  top: 100vh;
-  padding: 5rem 0 0 0;
+.request_footer h2 {
+  margin-bottom: 2rem;
 }
 
 .footer-copyright {
@@ -308,4 +358,20 @@ input[type=button] {
 .footer-copyright p {
   font-style: italic;
   font-size: 1.3rem;
+}
+
+.request_flex {
+  display: flex;
+  align-items: center;
+}
+
+.map_footer {
+  width: 100%;
+}
+
+.footer {
+  background-color: #15171C;
+  position: sticky;
+  top: 100vh;
+  padding: 5rem 0 0 0;
 }
