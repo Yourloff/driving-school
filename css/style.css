@@ -237,7 +237,7 @@ input[type=button] {
 
 .grid_advantages {
   display: grid;
-  grid-template: repeat(2,1fr) / repeat(3,1fr);
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   grid-column-gap: 5rem;
   grid-row-gap: 3rem;
   margin-top: 5rem;
@@ -247,8 +247,65 @@ input[type=button] {
   padding: 0;
 }
 
+.reviews_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 7rem 0;
+}
+
+.rewiews_item {
+  background-color: #fff;
+  padding: 1.5rem;
+  width: 28%;
+}
+
+.photo-people {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #eeeeee;
+}
+
+.people {
+  position: absolute;
+  width: 100%;
+}
+
+.rewiews_item span.name {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.request-bottom .request_form {
+  width: 50%;
+}
+
+.request-bottom h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
 .footer {
-  padding: 1rem 5rem;
+  background-color: #15171C;
   position: sticky;
   top: 100vh;
+  padding: 5rem 0 0 0;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.footer-copyright p {
+  font-style: italic;
+  font-size: 1.3rem;
 }

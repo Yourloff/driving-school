@@ -3,10 +3,6 @@
     margin: 0 5%;
   }
 
-  .back_image {
-
-  }
-
   .main {
     flex-direction: column;
     align-items: center;
@@ -39,6 +35,21 @@
   .hello p, span {
     font-size: 1.7rem;
   }
+
+  .rewiews_item {
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .rewiews_item span.name {
+    text-align: left;
+  }
+
+  .text {
+    padding: 1.5rem;
+    width: 75%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -62,5 +73,25 @@
 
   .grid_item {
     text-align: center;
+  }
+
+  .rewiews_item {
+    flex-direction: column;
+  }
+
+  .text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .request-bottom .request_form {
+    margin: 0 auto;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  .category {
+    width: 100%;
   }
 }
