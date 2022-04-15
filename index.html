@@ -8,8 +8,14 @@
   <title>Автошкола 124</title>
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fullhd.css">
   <link rel="stylesheet" href="css/burger.css">
   <link rel="stylesheet" href="css/style_mobile.css">
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  <script src="js/parallax.min.js"></script>
 </head>
 <body>
 <header class="header">
@@ -63,10 +69,12 @@
     </main>
   </div>
 </div>
-<div class="fleet">
+<div class="fleet" data-parallax="scroll" data-image-src="/img/highway.jpg">
   <div class="container">
-    <h3>Автопарк</h3>
-    <p>Большой автопарк современных автомобилей</p>
+    <div class="fleet_text">
+      <h3>Автопарк</h3>
+      <p>Большой автопарк современных автомобилей</p>
+    </div>
     <div class="fleet_box">
       <div class="fleet_item">
         <div class="photo">
@@ -189,24 +197,32 @@
 <footer class="footer">
   <div class="request-bottom">
     <div class="container">
-      <h2>Запишитесь в автошколу</h2>
-      <form class="request_form" action="#" method="post">
-        <input type="text" placeholder="Имя">
-        <input type="tel" name="" placeholder="Телефон">
-        <input type="email" name="" placeholder="E-mail">
-        <select class="category">
-          <option selected disabled>Категория</option>
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="CE">CE</option>
-        </select>
-        <input type="button" value="Отправить">
-      </form>
+      <div class="request_flex">
+        <div class="request_footer">
+          <h2>Запишитесь в автошколу</h2>
+          <form class="request_form" action="#" method="post">
+            <input type="text" placeholder="Имя">
+            <input type="tel" name="" placeholder="Телефон">
+            <input type="email" name="" placeholder="E-mail">
+            <select class="category">
+              <option selected disabled>Категория</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="CE">CE</option>
+            </select>
+            <input type="button" value="Отправить">
+          </form>
+        </div>
+        <div class="map_footer">
+          <script type="text/javascript" charset="utf-8" async
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3c76af6e3375a19f87f4e304ced43d51724e48ff897fd92e2c5df02bfa1779ae&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>"Автошкола 124" 2022</p>
+      </div>
     </div>
-  </div>
-  <div class="footer-copyright">
-    <p>"Автошкола 124" 2022</p>
   </div>
 </footer>
 </body>

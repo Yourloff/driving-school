@@ -50,6 +50,19 @@
     padding: 1.5rem;
     width: 75%;
   }
+
+  .request_flex {
+    flex-direction: column;
+  }
+
+  .request_form {
+    width: 100%;
+  }
+
+  .map_footer {
+    margin-top: 5rem;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -86,12 +99,5 @@
 
   .request-bottom .request_form {
     margin: 0 auto;
-  }
-
-  input[type=text],
-  input[type=email],
-  input[type=tel],
-  .category {
-    width: 100%;
   }
 }
