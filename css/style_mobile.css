@@ -14,15 +14,16 @@
   }
 
   .hello h1 {
-    font-size: 5rem;
+    margin-top: 2rem;
+    font-size: 4.5rem;
   }
 
   .hello p, span {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .request h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   input[type=text],
@@ -53,6 +54,10 @@
   .text {
     padding: 1.5rem;
     width: 75%;
+  }
+
+  .fleet_text {
+    margin-top: 4rem;
   }
 
   .request_flex {

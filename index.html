@@ -21,7 +21,7 @@
 <header class="header">
   <div class="logo">
     <img class="logo_img" src="img/logo.png" alt="Логотип автошкола 124">
-    <span class="head-text">Автошкола 124</span>
+    <span class="head_text">Автошкола 124</span>
   </div>
   <nav class="nav">
     <input id="menu__toggle" type="checkbox"/>
@@ -29,20 +29,22 @@
       <span></span>
     </label>
     <ul class="menu__box">
-      <li><a class="link_text" href="#">Об автошколе</a></li>
-      <li><a class="link_text" href="#">Поступающим</a></li>
-      <li><a class="link_text" href="#">Учащимся</a></li>
-      <li><a class="link_text" href="#">Статьи</a></li>
-      <div class="footer_box">
-        <p>"Автошкола 124" 2022г.</p>
-        <p>Телефон: <a href="tel:+79001112233">+79001112233</a></p>
-      </div>
+      <li><a class="link_text" href="#main">Главная</a></li>
+      <li><a class="link_text" href="#fleet">Автопарк</a></li>
+      <li><a class="link_text" href="#advantage">Преимущества</a></li>
+      <li><a class="link_text" href="#reviews">Отзывы</a></li>
+      <li>
+        <div class="footer_box">
+          <p>Телефон: <a href="tel:+79001112233">+79001112233</a></p>
+          <p>"Автошкола 124" 2022г.</p>
+        </div>
+      </li>
     </ul>
   </nav>
 </header>
 <div class="back_image">
   <div class="container">
-    <main class="main">
+    <main id="main" class="main">
       <div class="hello">
         <div class="text_main">
           <h1>Автошкола 124 в Красноярске</h1>
@@ -53,9 +55,9 @@
       <div class="request">
         <h2>Стартуйте вместе с нами!</h2>
         <form class="request_form" action="#" method="post">
-          <input type="text" placeholder="Имя">
-          <input type="tel" name="" placeholder="Телефон" id="#">
-          <input type="email" name="" placeholder="E-mail" id="">
+          <input type="text" name="name" id="name" placeholder="Имя">
+          <input type="tel" name="phone" placeholder="Телефон" id="phone">
+          <input type="email" name="email" placeholder="E-mail" id="email">
           <select class="category">
             <option selected disabled>Категория</option>
             <option value="A">A</option>
@@ -69,7 +71,7 @@
     </main>
   </div>
 </div>
-<div class="fleet" data-parallax="scroll" data-image-src="/img/highway.jpg">
+<div id="fleet" class="fleet" data-parallax="scroll" data-image-src="/img/highway.jpg">
   <div class="container">
     <div class="fleet_text">
       <h3>Автопарк</h3>
@@ -103,7 +105,7 @@
     </div>
   </div>
 </div>
-<div class="advantages">
+<div id="advantage" class="advantages">
   <div class="container">
     <h3>Наши преимущества</h3>
     <div class="grid_advantages">
@@ -146,7 +148,7 @@
     </div>
   </div>
 </div>
-<div class="reviews">
+<div id="reviews" class="reviews">
   <div class="container">
     <h3>Отзывы</h3>
     <div class="reviews_flex">
