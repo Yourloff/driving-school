@@ -316,7 +316,7 @@ input[type=button] {
   width: 28%;
 }
 
-.photo-people {
+.photo_people {
   position: relative;
   height: 100px;
   width: 100px;
@@ -337,7 +337,7 @@ input[type=button] {
   text-align: center;
 }
 
-.request-bottom h2 {
+.request_bottom h2 {
   color: #fff;
   font-size: 3rem;
 }
@@ -346,7 +346,7 @@ input[type=button] {
   margin-bottom: 2rem;
 }
 
-.footer-copyright {
+.footer_copyright {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -354,7 +354,7 @@ input[type=button] {
   margin-top: 5rem;
 }
 
-.footer-copyright p {
+.footer_copyright p {
   font-style: italic;
   font-size: 1.3rem;
 }
