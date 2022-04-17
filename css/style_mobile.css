@@ -3,6 +3,10 @@
     margin: 0 5%;
   }
 
+  input[type=button] {
+    padding: 1rem;
+  }
+
   .text_main {
     padding: 1rem;
   }
@@ -30,7 +34,7 @@
   input[type=email],
   input[type=tel],
   .category {
-    padding: 1rem;
+    padding: 0.8rem;
   }
 
   .main {
@@ -106,7 +110,7 @@
     padding: 0;
   }
 
-  .request-bottom .request_form {
+  .request_bottom .request_form {
     margin: 0 auto;
   }
 }
